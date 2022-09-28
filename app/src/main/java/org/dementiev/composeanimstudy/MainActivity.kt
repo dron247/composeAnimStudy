@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import org.dementiev.composeanimstudy.ui.components.DraggableLesson
 import org.dementiev.composeanimstudy.ui.components.SwipeableLesson
 import org.dementiev.composeanimstudy.ui.theme.ComposeAnimStudyTheme
 
@@ -30,6 +31,7 @@ class MainActivity : ComponentActivity() {
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         SwipeableLesson()
+                        DraggableLesson()
                     }
                 }
             }
